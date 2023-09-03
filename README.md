@@ -24,16 +24,17 @@ The following diagram illustrates a taxonomy diagram that summarizes most of the
 ![Activity Recognition flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/cc9d06a6-9954-4924-bf47-a82ecdb7d5b1)
 
 
-**Methodology Architecture**
+<ins>**Methodology Architecture**</ins>
 
-The following figure shows our methodology architecture and how each phase of the ETL is modified based on our methodology approach and system requirements,
+The following figure shows our methodology architecture and how each phase of the ETL is modified based on our methodology approach and system requirements.
+
 ![MethodologyNew](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/d5d5c9b7-a62a-4632-9293-a1cfde5b2e97)
 
 
 Next is the implementation diagram of our system. The main idea here is to be able to receive the data as it is generated from the user's phone and perform analysis and processing techniques using different tools as well as deploying a machine learning model on the top of the stream by conducting an integration of different distributed stream processing and analysis frameworks such as Apache Spark and spark Kafka to be able to monitor and predict the user outliers in real-time and give action based on it if needed.
 
 
-**System implementation**
+<ins>**System implementation**</ins>
 
 The implementation Process flow is divided into two main phases, the Training phase which will be working with a historical dataset, and the implementation phase which will be working with our DataStream in real-time. Apache Spark distributed Stream Processing engine will be employed in the background of those two phases, in addition, Apache Kafka Streaming platform will be employed as a messaging system and a decoupling layer, and finally, an Isolation Forest model is trained and applied on top of streaming data as it flows in the system.
 
