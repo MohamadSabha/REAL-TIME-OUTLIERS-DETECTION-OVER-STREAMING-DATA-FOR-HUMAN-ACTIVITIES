@@ -15,9 +15,10 @@ On top of the pipeline, different data preprocessing, transformation, and featur
 <ins>**Human Activity Recognition Framework Design**</ins>
 
 Aiming to summarize the general and typical picture of the designing and implementing of a pattern recognition system such as human activity recognition, the next figure is introduced which shows how human activity recognition system's main modules and parts are constructed together in order to achieve the task of activity recognition successfully. several modules can be noticed in the previous diagram in which the human activity recognition system consists of a data collection step, Data segmentation, feature Engineering, and the training of the model selected. And as a result of the earlier processes, we will finally be able to detect and recognize the desired activity.
+
 ![Activity Recognition (1)](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/e9f1c7b0-4511-485d-b9ec-347d5e26f06c)
 
-**Human Activity Recognition Taxonomy diagram **
+<ins>**Human Activity Recognition Taxonomy diagram **</ins>
 
 The following diagram illustrates a taxonomy diagram that summarizes most of the conducted research and works on the area of human activity recognition in which it shows different considered points where a one can keep in mind when planning to implement new work related to this area such as recognition types, used techniques, applied algorithms, data sources as well as and application areas.
 
