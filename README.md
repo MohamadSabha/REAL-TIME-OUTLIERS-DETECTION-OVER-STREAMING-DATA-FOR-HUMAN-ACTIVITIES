@@ -12,4 +12,17 @@ The implemented and developed solution was designed to operate in an indoor envi
 On top of the pipeline, different data preprocessing, transformation, and feature engineering techniques were utilized on the generated streamed data to train a robust machine learning model. Also, to boost the performance of detecting outliers in real-time as much as possible. The isolation Forest Algorithm was adopted to train our machine learning model to achieve the detection task which is less complex, more scalable, and addresses other algorithms’ shortcomings. Finally, a real-time dashboard was designed to show the results of the system and anomalies as they are detected in real-time.
 
 
+The following figure shows our methodology architecture and how each phase of the ETL is modified based on our methodology approach and system requirements,
+![MethodologyNew](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/d5d5c9b7-a62a-4632-9293-a1cfde5b2e97)
+
+
+Next is the implementation diagram of our system. The main idea here is to be able to receive the data as it is generated from the user's phone and perform analysis and processing techniques using different tools as well as deploying a machine learning model on the top of the stream by conducting an integration of different distributed stream processing and analysis frameworks such as Apache Spark and spark Kafka to be able to monitor and predict the user outliers in real-time and give action based on it if needed.
+
+The implementation Process flow is divided into two main phases, the Training phase which will be working with a historical dataset, and the implementation phase which will be working with our DataStream in real-time. Apache Spark distributed Stream Processing engine will be employed in the background of those two phases, in addition, Apache Kafka Streaming platform will be employed as a messaging system and a decoupling layer, and finally, an Isolation Forest model is trained and applied on top of streaming data as it flows in the system.
+
+The following diagram illustrates a taxonomy diagram that summarizes most of the conducted research and works on the area of human activity recognition in which it shows different considered points where a one can keep in mind when planning to implement new work related to this area such as recognition types, used techniques, applied algorithms, data sources as well as and application areas.
+
+![Activity Recognition flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/cc9d06a6-9954-4924-bf47-a82ecdb7d5b1)
+
+
 ![Implementation flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/3c677699-2fc1-44f1-a527-1f5fb81da527)
