@@ -20,9 +20,12 @@ Next is the implementation diagram of our system. The main idea here is to be ab
 
 The implementation Process flow is divided into two main phases, the Training phase which will be working with a historical dataset, and the implementation phase which will be working with our DataStream in real-time. Apache Spark distributed Stream Processing engine will be employed in the background of those two phases, in addition, Apache Kafka Streaming platform will be employed as a messaging system and a decoupling layer, and finally, an Isolation Forest model is trained and applied on top of streaming data as it flows in the system.
 
+![Implementation flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/3c677699-2fc1-44f1-a527-1f5fb81da527)
+
+
 The following diagram illustrates a taxonomy diagram that summarizes most of the conducted research and works on the area of human activity recognition in which it shows different considered points where a one can keep in mind when planning to implement new work related to this area such as recognition types, used techniques, applied algorithms, data sources as well as and application areas.
 
 ![Activity Recognition flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/cc9d06a6-9954-4924-bf47-a82ecdb7d5b1)
 
 
-![Implementation flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/3c677699-2fc1-44f1-a527-1f5fb81da527)
+
