@@ -10,3 +10,6 @@ The implemented and developed solution was designed to operate in an indoor envi
 
 
 On top of the pipeline, different data preprocessing, transformation, and feature engineering techniques were utilized on the generated streamed data to train a robust machine learning model. Also, to boost the performance of detecting outliers in real-time as much as possible. The isolation Forest Algorithm was adopted to train our machine learning model to achieve the detection task which is less complex, more scalable, and addresses other algorithms’ shortcomings. Finally, a real-time dashboard was designed to show the results of the system and anomalies as they are detected in real-time.
+
+
+![Implementation flow diagram](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/3c677699-2fc1-44f1-a527-1f5fb81da527)
