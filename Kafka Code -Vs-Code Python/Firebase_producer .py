@@ -13,7 +13,7 @@ from kafka import KafkaProducer
     
 cred = credentials.Certificate("C:\\Users\\MHD\\Desktop\\kafka-installation\\kafka-python-code\\accelerometer-db-firebase-adminsdk-8t564-607f4ea317.json")
 firebase_admin.initialize_app(cred , {
-    'databaseURL': 'https://accelerometer-db-default-rtdb.firebaseio.com/'
+    'databaseURL': ''
     }     
 )
 
