@@ -1,0 +1,2 @@
+# REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES
+This project aims to propose a methodology to address the challenge of outlier detection over streaming data in real-time. The methodology is based on a developed architectural pipe-line combined synergistically of multiple strategies and technologies such as Apache Kafka and Apache spark as well as isolation-forest machine learning algorithm.
