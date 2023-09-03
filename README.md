@@ -18,7 +18,7 @@ Aiming to summarize the general and typical picture of the designing and impleme
 
 ![Activity Recognition (1)](https://github.com/MohamadSabha/REAL-TIME-OUTLIERS-DETECTION-OVER-STREAMING-DATA-FOR-HUMAN-ACTIVITIES/assets/40656744/e9f1c7b0-4511-485d-b9ec-347d5e26f06c)
 
-<ins>**Human Activity Recognition Taxonomy diagram **</ins>
+<ins> **Human Activity Recognition Taxonomy diagram ** </ins>
 
 The following diagram illustrates a taxonomy diagram that summarizes most of the conducted research and works on the area of human activity recognition in which it shows different considered points where a one can keep in mind when planning to implement new work related to this area such as recognition types, used techniques, applied algorithms, data sources as well as and application areas.
 
