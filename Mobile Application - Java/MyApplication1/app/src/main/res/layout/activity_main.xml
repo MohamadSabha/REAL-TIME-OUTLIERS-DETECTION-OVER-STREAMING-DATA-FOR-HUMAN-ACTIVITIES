@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/headtext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Ankara University Outlier Detection In Real-Time"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="0sp"
+            android:layout_marginBottom="10sp"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="380dp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="221dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/ankarauniviersity"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="36dp" />
+        <TextView
+        android:id="@+id/Xvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:layout_marginTop="10sp"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="380dp" />
+    <TextView
+        android:id="@+id/Yvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:layout_marginTop="10sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="415dp" />
+    <TextView
+        android:id="@+id/Zvalue"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:layout_marginTop="10sp"
+        tools:layout_editor_absoluteX="173dp"
+        android:layout_width="match_parent"
+        tools:layout_editor_absoluteY="455dp" />
+    <RadioGroup android:id="@+id/radio_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_Normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Normal Data " />
+        <RadioButton android:id="@+id/radio_Outlier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Outlier Data " />
+    </RadioGroup>
+        <TextView
+            android:id="@+id/FreeText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Developed And Implemented By:\n Mohamad Sabha\n Supervised By: Dr. Bülent Tuğrul.\n\n  All Rights Reserved"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="380dp" />
+</LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417542989758",
+    "project_id": "accelerometer-db",
+    "storage_bucket": "accelerometer-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417542989758:android:49e3be5e1829e40ea33bef",
+        "android_client_info": {
+          "package_name": "com.example.myapplication1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417542989758-po3la9250ufurladvmf3aobf06ir7tsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIuFRtayRG4dq94WurBvTkqJjBtpR2qGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417542989758-po3la9250ufurladvmf3aobf06ir7tsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
