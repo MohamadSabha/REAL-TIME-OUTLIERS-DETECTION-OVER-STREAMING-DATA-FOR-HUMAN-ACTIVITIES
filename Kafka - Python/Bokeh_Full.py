@@ -25,7 +25,7 @@ from bokeh.models import CustomJS
 import js2py
 from bokeh.layouts import column
 from bokeh.models import HTMLTemplateFormatter
-
+# wqssssssssssssssssssssssssssssssssssssss
 
 consumer_Prediction = KafkaConsumer(
         'result',
