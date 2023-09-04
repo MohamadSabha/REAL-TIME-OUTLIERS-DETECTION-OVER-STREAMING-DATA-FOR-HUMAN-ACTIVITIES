@@ -1,1 +1,1 @@
-you can find the used dataset at : [https://www.cis.fordham.edu/wisdm/dataset.php#actitracker]
+you can find the used dataset at : [WISDM LabDataset](https://www.cis.fordham.edu/wisdm/dataset.php#actitracker)
