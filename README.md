@@ -3,6 +3,7 @@
 
 {% include youtube.html id="JLMbpiywVxQ" %}  
 
+
 This project aims to propose a methodology to address the challenge of outlier detection over streaming data in real-time. The methodology is based on a developed architectural pipe-line combined synergistically of multiple strategies and technologies such as Apache Kafka and Apache Spark. For effectiveness evaluation purposes, an implementation of the methodology was performed by developing a solution for a real-life problem that detects outliers over streams of human activities.
 The developed solution is powered by two systems as follows:
 
